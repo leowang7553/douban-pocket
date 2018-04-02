@@ -1,0 +1,35 @@
+.detailContent-film-img {
+	text-align: center;
+	border-width: 0 0 2px 0;
+	border-color: #f0f0f0;
+	border-style: solid;
+	padding-bottom: 5px;
+}
+
+.detailContent-film-genre {
+	background-color: #ff3300;
+	margin-right: 5px;
+	padding: 2px;
+	color: #ffffff;
+}
+
+.detailContent-film-casts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: start;
+	align-content: center;
+}
+
+.detailContent-film-cast {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: start;
+	width: 30%;
+}
+
+.detailContent-film-cast img {
+	width: 80%;
+	border-radius: 50%;
+}

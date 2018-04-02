@@ -1,0 +1,52 @@
+.content-item {
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: flex;
+}
+
+.content-item-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-item-img img {
+	width: 25vw;
+}
+
+.content-item-list {
+	margin-left: 10px;
+	width: 60vw;
+}
+
+.content-item-list li {
+	margin-top: 5px;
+}
+
+.content-item-list-bookTag {
+	background-color: #ffcc00;
+	margin-right: 5px;
+	padding: 2px;
+	color: #ffffff;
+}
+
+.content-item-list-filmTitle {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.content-item-list-filmGenre {
+	background-color: #ff3300;
+	margin-right: 5px;
+	padding: 2px;
+	color: #ffffff;
+}
+
+.content-item-list-filmCast {
+	font-size: 0.86rem;
+	font-weight: 500;
+	color: #c0c0c0;
+	margin-right: 5px;
+	padding: 2px;
+}

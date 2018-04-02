@@ -1,0 +1,31 @@
+.detailContent-music-basic {
+	display: flex;
+	border-width: 0 0 2px 0;
+	border-color: #f0f0f0;
+	border-style: solid;
+	padding-bottom: 5px;
+}
+
+.detailContent-music-img {
+	width: 30%;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+.detailContent-music-img img {
+	width: 100%;
+}
+
+.detailContent-music-list {
+	width: 70%;
+}
+
+.detailContent-music-list-tag {
+	display: inline-block;
+	background-color: #ffcc00;
+	margin-right: 5px;
+	margin-top: 2px;
+	padding: 2px;
+	color: #ffffff;
+}

@@ -1,0 +1,6 @@
+.detailContent-container {
+	padding: 5px 10px;
+	margin-top: 8vh;
+	height: 92vh;
+	overflow: scroll;
+}

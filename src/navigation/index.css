@@ -1,0 +1,26 @@
+.nav-container {
+  z-index: 100;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 10vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-tab-text {
+  margin-top: 5px;
+}
+
+.nav-tab_active {
+  color: #0099ff;
+}
